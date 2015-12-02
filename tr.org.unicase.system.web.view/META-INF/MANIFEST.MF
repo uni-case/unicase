@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: System Web View Bundle
+Bundle-SymbolicName: tr.org.unicase.system.web.view
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Service-Component: OSGI-INF/view.xml,
+ OSGI-INF/message.xml
+Include-Ressource: etc/theme
+Import-Package: com.rabbitmq.client;version="3.4.2",
+ com.vaadin.data;version="7.2.4",
+ com.vaadin.event;version="7.2.4",
+ com.vaadin.server;version="7.2.4",
+ com.vaadin.ui;version="7.2.4",
+ org.eclipse.osgi.framework.console;version="1.1.0",
+ org.osgi.framework;version="1.6.0",
+ tr.org.unicase.kernel.web.controller,
+ tr.org.unicase.kernel.web.view,
+ tr.org.unicase.web.component,
+ tr.org.unicase.web.view.action.api,
+ tr.org.unicase.web.view.api
+Export-Package: gov.tubitak.yte.mainboard.manager
+Bundle-Vendor: Unicase
+Require-Bundle: org.freemarker.freemarker;bundle-version="2.3.21"
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: gov.tubitak.yte.mainboard.manager.Activator

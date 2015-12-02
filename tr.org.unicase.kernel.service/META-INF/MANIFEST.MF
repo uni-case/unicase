@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Kernel Service Bundle
+Bundle-SymbolicName: tr.org.unicase.kernel.service
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.hibernate;version="3.3.2.GA",
+ org.osgi.framework;version="1.6.0",
+ org.springframework.beans;version="3.0.5.RELEASE",
+ org.springframework.beans.factory;version="3.0.5.RELEASE",
+ org.springframework.context;version="3.0.5.RELEASE",
+ org.springframework.core.io.support;version="3.0.5.RELEASE",
+ tr.org.unicase.kernel.model,
+ tr.org.unicase.service.api,
+ tr.org.unicase.service.api.sql
+Bundle-ActivationPolicy: lazy
+Require-Bundle: com.springsource.org.apache.commons.collections;bundle-version="3.2.1",
+ com.mysql.jdbc;bundle-version="5.1.17"
+Export-Package: tr.org.unicase.kernel.service,
+ tr.org.unicase.kernel.service.generate
+Bundle-Vendor: Unicase

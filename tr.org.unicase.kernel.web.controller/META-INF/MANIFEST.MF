@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Kernel Web Controller
+Bundle-SymbolicName: tr.org.unicase.kernel.web.controller
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Activator: tr.org.unicase.kernel.web.controller.activator.KernelControllerActivator
+Import-Package: com.vaadin.data;version="7.2.4",
+ com.vaadin.data.util;version="7.2.4",
+ org.eclipse.osgi.framework.console;version="1.1.0",
+ org.hibernate;version="3.4.0.GA-A",
+ org.osgi.framework;version="1.3.0",
+ org.springframework.security.core.userdetails;version="3.1.0.RELEASE",
+ org.springframework.security.provisioning;version="3.1.0.RELEASE",
+ tr.org.unicase.kernel.model,
+ tr.org.unicase.kernel.service,
+ tr.org.unicase.kernel.service.generate,
+ tr.org.unicase.service.api,
+ tr.org.unicase.web.controller.api
+Export-Package: tr.org.unicase.kernel.web.controller,
+ tr.org.unicase.kernel.web.controller.cache
+Bundle-Vendor: Unicase
+Bundle-ClassPath: lib/hazelcast-all-3.4.jar,
+ .
+Service-Component: META-INF/OSGI-INF/fieldCache.xml

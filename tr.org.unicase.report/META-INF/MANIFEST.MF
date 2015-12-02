@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Unicase Report
+Bundle-SymbolicName: tr.org.unicase.report
+Bundle-Version: 1.0.0
+Bundle-Activator: tr.org.unicase.report.internals.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Import-Package: net.sf.jasperreports.engine,
+ org.osgi.framework;version="1.8.0",
+ com.mysql.jdbc;version="5.1.17"
+Export-Package: tr.org.unicase.report

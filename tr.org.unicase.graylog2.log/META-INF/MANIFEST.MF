@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GrayLog
+Bundle-SymbolicName: tr.org.unicase.graylog2.log
+Bundle-Version: 1.0.0
+Bundle-Activator: tr.org.unicase.graylog2.log.internals.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/gelfclient-1.0.0.jar,
+               lib/netty-all-4.0.21.Final.jar,
+ .
+Import-Package: com.fasterxml.jackson.core;version="2.4.4",
+ com.fasterxml.jackson.databind;version="2.4.4",
+ org.osgi.framework;version="1.8.0",
+ org.slf4j;version="1.7.2",
+ tr.org.unicase.kernel.model,
+ tr.org.unicase.log.api

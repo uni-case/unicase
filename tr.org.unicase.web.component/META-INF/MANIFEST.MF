@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Web UI Component
+Bundle-SymbolicName: tr.org.unicase.web.component
+Bundle-Version: 1.0.0
+Bundle-Vendor: Unicase
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: org.apache.poi.hssf.usermodel,
+ org.apache.poi.ss.usermodel,
+ org.vaadin.dialogs,
+ tr.org.unicase.web.component,
+ tr.org.unicase.web.component.excel,
+ tr.org.unicase.web.component.report
+Import-Package: com.vaadin.data;version="7.2.4",
+ com.vaadin.data.util;version="7.3.1",
+ com.vaadin.server;version="7.2.4",
+ com.vaadin.shared;version="7.2.4",
+ com.vaadin.shared.ui.label;version="7.2.4",
+ com.vaadin.ui,
+ org.json;version="0.0.20131108.vaadin1",
+ tr.org.unicase.kernel.model,
+ tr.org.unicase.reference.web.controller
+Bundle-ClassPath: lib/confirmdialog-2.1.1.jar,
+ lib/poi-3.10.1-20140818.jar,
+ .

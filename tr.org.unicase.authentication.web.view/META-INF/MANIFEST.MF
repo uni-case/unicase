@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Unicase Authentication Web View
+Bundle-SymbolicName: tr.org.unicase.authentication.web.view
+Bundle-Version: 1.0.0
+Bundle-Activator: tr.org.unicase.authentication.web.view.internals.Activator
+Bundle-Vendor: Unicase
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: com.vaadin.data;version="7.3.1",
+ com.vaadin.server;version="7.3.1",
+ com.vaadin.ui;version="7.3.1",
+ com.vaadin.ui.themes;version="7.3.1",
+ org.osgi.framework;version="1.3.0",
+ tr.org.unicase.authentication.service,
+ tr.org.unicase.authentication.service.model,
+ tr.org.unicase.kernel.model,
+ tr.org.unicase.web.component,
+ tr.org.unicase.web.controller.api,
+ tr.org.unicase.web.view.action.api,
+ tr.org.unicase.web.view.api,
+ tr.org.unicase.web.view.validator

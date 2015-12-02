@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0"
+	name="tr.org.unicase.reference.module">
+	<implementation class="tr.org.unicase.reference.web.module.ModuleImpl" />
+	<service>
+		<provide interface="tr.org.unicase.kernel.web.module.Module" />
+	</service>
+</scr:component>

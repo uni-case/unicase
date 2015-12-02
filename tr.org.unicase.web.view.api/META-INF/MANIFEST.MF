@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Unicase Web View API Bundle
+Bundle-SymbolicName: tr.org.unicase.web.view.api
+Bundle-Version: 1.0.0
+Bundle-Activator: tr.org.unicase.web.view.api.internals.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Import-Package: com.vaadin.data;version="7.3.1",
+ com.vaadin.server;version="7.3.1",
+ com.vaadin.ui,
+ org.osgi.framework;version="1.8.0",
+ org.osgi.util.tracker;version="1.5.1",
+ org.vaadin.dialogs,
+ tr.org.unicase.authentication.service.model,
+ tr.org.unicase.kernel.model,
+ tr.org.unicase.log.api,
+ tr.org.unicase.web.component,
+ tr.org.unicase.web.controller.api
+Export-Package: tr.org.unicase.web.view.action.api,
+ tr.org.unicase.web.view.api,
+ tr.org.unicase.web.view.validator

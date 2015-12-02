@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="tr.org.unicase.authentication.service.model.User" table="core_user" catalog="unicase">
+        <id name="id" type="long">
+            <column name="id"/>
+            <generator class="identity" />
+        </id>
+         <property name="name" type="java.lang.String">
+            <column name="name" not-null="true" />
+        </property>
+        <property name="surname" type="java.lang.String">
+            <column name="surname" not-null="true" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="email" not-null="true" />
+        </property>
+        <property name="userName" type="java.lang.String">
+            <column name="username" not-null="true" />
+        </property>
+       
+        <property name="role" type="java.lang.String">
+            <column name="role" not-null="true" />
+        </property>
+        <property name="clear" type="java.lang.String">
+            <column name="clear" not-null="true" />
+        </property>
+        <property name="encrypted" type="java.lang.String">
+            <column name="password" not-null="true" />
+        </property>
+        <property name="expireDate" type="java.lang.String">
+            <column name="expireDate"/>
+        </property>
+        <property name="status" type="java.lang.Integer">
+            <column name="status" not-null="true" />
+        </property>
+    </class>
+
+</hibernate-mapping>

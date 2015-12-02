@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Unicase Web Controller API Bundle
+Bundle-SymbolicName: tr.org.unicase.web.controller.api
+Bundle-Version: 1.0.0
+Bundle-Activator: tr.org.unicase.web.controller.api.internals.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Import-Package: com.vaadin.data;version="7.3.1",
+ org.osgi.framework;version="1.8.0",
+ tr.org.unicase.kernel.model
+Export-Package: tr.org.unicase.web.controller.api

@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Unicase Kernel Web View Action Bundle
+Bundle-SymbolicName: tr.org.unicase.kernel.web.view.action
+Bundle-Version: 1.0.0
+Bundle-Activator: tr.org.unicase.kernel.web.view.action.internals.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Import-Package: com.vaadin.event;version="7.3.1",
+ com.vaadin.server;version="7.3.1",
+ com.vaadin.ui;version="7.3.1",
+ org.apache.poi.hssf.usermodel,
+ org.osgi.framework;version="1.8.0",
+ org.vaadin.dialogs,
+ tr.org.unicase.kernel.model,
+ tr.org.unicase.kernel.web.controller,
+ tr.org.unicase.kernel.web.view,
+ tr.org.unicase.log.api,
+ tr.org.unicase.web.component,
+ tr.org.unicase.web.component.excel,
+ tr.org.unicase.web.controller.api,
+ tr.org.unicase.web.view.action.api,
+ tr.org.unicase.web.view.api

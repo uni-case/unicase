@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Unicase Service API Bundle
+Bundle-SymbolicName: tr.org.unicase.service.api
+Bundle-Version: 1.0.0
+Bundle-Activator: tr.org.unicase.service.api.internals.Activator
+Bundle-Vendor: Unicase
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.hibernate;version="3.4.0.GA-A",
+ org.osgi.framework;version="1.3.0",
+ org.springframework.beans;version="3.1.0.RELEASE",
+ org.springframework.beans.factory;version="3.1.0.RELEASE",
+ org.springframework.context;version="3.1.0.RELEASE",
+ org.springframework.core.io.support;version="3.1.0.RELEASE",
+ tr.org.unicase.kernel.model
+Export-Package: tr.org.unicase.service.api,
+ tr.org.unicase.service.api.sql

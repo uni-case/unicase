@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Web Theme
+Bundle-SymbolicName: tr.org.unicase.web.theme
+Bundle-Version: 1.0.0
+Bundle-Vendor: Unicase
+Fragment-Host: com.vaadin.themes;bundle-version="[7.2.4,8.0.0)"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: com.vaadin.server

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Unicase
+Bundle-SymbolicName: tr.org.unicase.log.api
+Bundle-Version: 1.0.0
+Bundle-Activator: tr.org.unicase.log.api.internals.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: tr.org.unicase.log.api
+Import-Package: org.osgi.framework;version="1.8.0",
+ tr.org.unicase.kernel.model

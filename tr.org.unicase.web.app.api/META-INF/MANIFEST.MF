@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Web App Api
+Bundle-SymbolicName: tr.org.unicase.web.app.api
+Bundle-Version: 1.0.0
+Bundle-Vendor: Unicase
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: com.vaadin.server;version="7.2.4",
+ com.vaadin.shared;version="7.2.4",
+ com.vaadin.ui;version="7.2.4",
+ org.json;version="0.0.20131108.vaadin1",
+ org.osgi.framework;version="1.6.0",
+ org.osgi.util.tracker;version="1.5.0",
+ tr.org.unicase.kernel.model,
+ tr.org.unicase.kernel.web.view,
+ tr.org.unicase.log.api,
+ tr.org.unicase.web.view.api
+Export-Package: tr.org.unicase.web.app.api
