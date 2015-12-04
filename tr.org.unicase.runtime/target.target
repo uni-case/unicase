@@ -6,6 +6,7 @@
 <location path="${project_loc}/target/spring" type="Directory"/>
 <location path="${project_loc}/target/other" type="Directory"/>
 <location path="${project_loc}/target/vaadin" type="Directory"/>
+<location path="${project_loc}/target/pg" type="Directory"/>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.equinox.sdk.feature.group" version="3.11.0.v20150602-1417"/>
 <repository location="http://download.eclipse.org/eclipse/updates/4.5"/>
